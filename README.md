@@ -11,6 +11,9 @@ Skills: Basic visualization, simple moving averages, linear regression
 Goal: Predict next-day temperature using simple statistical methods
 Techniques: Moving averages, simple exponential smoothing
 
+Linear Regression: Temperature(t) = β₀ + β₁×Temperature(t-1) + β₂×Hour + β₃×Month
+Polynomial Regression: Add Temperature(t-1)² for non-linear relationships
+Ridge/Lasso Regression: When including multiple lagged variables and seasonal dummies
 
 2nd Project - 
 
@@ -22,7 +25,8 @@ Skills: Basic ARIMA modeling, trend analysis, seasonal decomposition
 Goal: Predict stock closing prices for next week
 Techniques: ARIMA, seasonal decomposition, autocorrelation analysis
 
-
+Linear Regression: Price(t) = β₀ + β₁×Price(t-1) + β₂×Volume(t-1) + β₃×Day_of_Week
+Multiple Linear Regression: Include technical indicators (moving averages, RSI)
 
 
 
