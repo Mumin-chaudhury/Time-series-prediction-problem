@@ -3,17 +3,17 @@ Classical regression models with models specifically suited to time series predi
 
 1st Project -
 
-Problem 1: Air Temperature Forecasting
-Dataset: Air Quality Time Series data UCI Air Quality Time Series data UCI | Kaggle
-
-Link: https://www.kaggle.com/datasets/aayushkandpal/air-quality-time-series-data-uci
+Problem 1: Uber Ride Demand Forecasting
+Dataset: Uber Ride Analytics Dashboard
+Link: https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard
 Skills: Basic visualization, simple moving averages, linear regression
-Goal: Predict next-day temperature using simple statistical methods
+Goal: Predict ride demand/fare prices using simple statistical methods
 Techniques: Moving averages, simple exponential smoothing
+Regression Models:
 
-Linear Regression: Temperature(t) = β₀ + β₁×Temperature(t-1) + β₂×Hour + β₃×Month
-Polynomial Regression: Add Temperature(t-1)² for non-linear relationships
-Ridge/Lasso Regression: When including multiple lagged variables and seasonal dummies
+Linear Regression: RideDemand(t) = β₀ + β₁×RideDemand(t-1) + β₂×Hour + β₃×DayOfWeek + β₄×Month
+Polynomial Regression: Add RideDemand(t-1)² for non-linear relationships
+Ridge/Lasso Regression: When including multiple lagged variables, location dummies, and seasonal features
 
 2nd Project - 
 
