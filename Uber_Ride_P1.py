@@ -13,6 +13,8 @@ df = pd.read_csv('ncr_ride_bookings.csv')
 df.drop_duplicates()
 df_cleaned = df.dropna()
 
+
+
 model = LinearRegression()
 model.fit(X_train, Y_train)
 
@@ -32,6 +34,7 @@ plt.grid(True)
 plt.tight_layout()
 plt.savefig("linear_regression_actual_vs_predicted.png")
 plt.show()
+
 
 
 
